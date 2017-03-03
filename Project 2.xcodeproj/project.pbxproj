@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C3E80081E48CDC800C990D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E80071E48CDC800C990D3 /* main.cpp */; };
+		9C3E80111E48CEAD00C990D3 /* lexer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E80101E48CEAD00C990D3 /* lexer.cpp */; };
+		9C3E80161E48CF7900C990D3 /* project2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E80151E48CF7900C990D3 /* project2.cpp */; };
+		9C3E80191E48F44D00C990D3 /* inputbuf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E80171E48F44D00C990D3 /* inputbuf.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		9C3E80041E48CDC800C990D3 /* Project 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Project 2"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C3E80071E48CDC800C990D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9C3E80101E48CEAD00C990D3 /* lexer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lexer.cpp; sourceTree = "<group>"; };
+		9C3E80141E48CF1F00C990D3 /* lexer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lexer.h; sourceTree = "<group>"; };
+		9C3E80151E48CF7900C990D3 /* project2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = project2.cpp; sourceTree = "<group>"; };
+		9C3E80171E48F44D00C990D3 /* inputbuf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = inputbuf.cpp; sourceTree = "<group>"; };
+		9C3E801A1E48F49000C990D3 /* inputBuf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inputBuf.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		9C3E80061E48CDC800C990D3 /* Project 2 */ = {
 			isa = PBXGroup;
 			children = (
-				9C3E80071E48CDC800C990D3 /* main.cpp */,
+				9C3E80101E48CEAD00C990D3 /* lexer.cpp */,
+				9C3E80141E48CF1F00C990D3 /* lexer.h */,
+				9C3E80151E48CF7900C990D3 /* project2.cpp */,
+				9C3E80171E48F44D00C990D3 /* inputbuf.cpp */,
+				9C3E801A1E48F49000C990D3 /* inputBuf.h */,
 			);
 			path = "Project 2";
 			sourceTree = "<group>";
@@ -120,7 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C3E80081E48CDC800C990D3 /* main.cpp in Sources */,
+				9C3E80161E48CF7900C990D3 /* project2.cpp in Sources */,
+				9C3E80191E48F44D00C990D3 /* inputbuf.cpp in Sources */,
+				9C3E80111E48CEAD00C990D3 /* lexer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +261,7 @@
 				9C3E800D1E48CDC800C990D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

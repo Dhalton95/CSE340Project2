@@ -1,0 +1,9 @@
+a b c #
+S A B C #
+S -> A B #
+S -> C #
+C -> c #
+S -> a #
+A -> a A #
+B -> b #
+##

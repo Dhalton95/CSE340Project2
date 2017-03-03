@@ -1,0 +1,6 @@
+FOLLOW(hello) = { $ }
+FOLLOW(world) = { $ }
+FOLLOW(a) = { y, x }
+FOLLOW(b) = { $ }
+FOLLOW(c1) = { $, w }
+FOLLOW(c2) = { $, w }
